@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Jost', sans-serif;
+}
+
+body{
+    margin: 0;
+    background: -webkit-linear-gradient(left, #F9F1E7, #F9F1E7 67%, #FCF8F3 30%, #FCF8F3);
+}
+
+.sapphhome-s {
+    display: flex;
+
+}
+
+.started {
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.72);
+    height: 600px;
+    width: 494px;
+}
+
+.welcome > h1{
+    display: flex;
+    height: 67px;
+    width: 374px;
+    
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 56px;
+    color: #564130;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.welcome-paragraph {
+    display: flex;
+    width: 374px;
+    
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    color: #8D7358;
+    line-height: 200%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start-button {
+    display: flex;
+}
+
+.start-button a{
+    width: 374px;
+    text-decoration: none;
+    border: 2px solid #564130;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color:#564130;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+.start-button a:hover{
+    box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.322);
+}
+
+
+.logocontainer{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.biglogo{
+    height: 385px;
+    width: 385px;
+    border-radius: 250px 250px 0px 0px;
+}
